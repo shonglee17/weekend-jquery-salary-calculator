@@ -18,3 +18,6 @@
     if total monthly cost exceeds 20,000
     add red background color to the total monthly cost
 
+//Create a delete button
+    delete the employee from the dom
+
