@@ -5,9 +5,8 @@ table, th, td {
 
   }
 
-  .monthlyMax{
-
-    background-color: red;
+  .monthlyCalculator{
+    width: 498px
   }
 
 

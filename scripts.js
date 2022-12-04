@@ -80,5 +80,5 @@ function updateMonthlyCost(){
     //monthlyCost + employee's salary🥊
     //if greater than 20,000🥊
     //turn red🥊
-}//end updating monthly cost
+}//end updating monthly 
 
