@@ -24,8 +24,9 @@ function getInfo(){
     }//object inputs
 
     employeeInfo.push(employee)
-    updateMonthlyCost()
     renderInputs()
+    updateMonthlyCost()
+    
     $('#firstNameInput').val('')
     $('#lastNameInput').val('')
     $('#idNumberInput').val('')
@@ -58,17 +59,13 @@ function renderInputs(){
 
 let annualTotal = 0;
 function updateMonthlyCost(){
-    
     let annualInput = Number($('#annualInput').val())
     annualTotal += annualInput
     let monthlySum = annualTotal / 12
     console.log('this is monthly spendings on salary!', monthlySum)
         $('.monthlyText').text(`Monthly Cost: $ ${monthlySum}`)
-    
-    
-    
     if( monthlySum >= 20000){
-        $('.monthlyText').text(red)
+        $('.monthlyText').css('background-color', 'red')
         }
     
 
@@ -80,8 +77,8 @@ function updateMonthlyCost(){
         
     // }
     
-    //monthlyCost + employee's salary
-    //if greater than 20,000
-    //turn red
-}
+    //monthlyCost + employee's salary🥊
+    //if greater than 20,000🥊
+    //turn red🥊
+}//end updating monthly cost
 
