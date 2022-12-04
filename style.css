@@ -1,4 +1,14 @@
 table, th, td {
     border: 1px solid;
+    margin: 5px;
+    margin-left: 0px;
+
   }
+
+  .monthlyMax{
+
+    background-color: red;
+  }
+
+
 

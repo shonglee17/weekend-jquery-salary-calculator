@@ -10,28 +10,34 @@
     <script src="scripts.js"></script>
 </head>
 <body>
-    <h1>Salary Calculator</h1>
+    <h1>Montly Salary Calculator</h1>
         <input id="firstNameInput" placeholder="First Name"></input>
         <input id="lastNameInput" placeholder="Last Name"></input>
         <input id="idNumberInput" placeholder="ID Number"></input>
         <input id="jobTitleInput" placeholder="Job Title"></input>
-        <input id="annualInput" placeholder="Annual Input"></input>
+        <input id="annualInput" placeholder="Annual Input NUMBERS ONLY PLEASE"></input>
         <button id="submitButton">ENTER</button>
+        <button>WORLD'S MOST USELESS BUTTON</button>
     
     <table>
-        <tr>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>ID Number</th>
-          <th>Job Title</th>
-          <th>Annual Salary</th>
-        </tr>    
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID Number</th>
+                <th>Job Title</th>
+                <th>Annual Salary</th>
+            </tr>   
+        </thead> 
     
-       <tr id="infoData">
-
-       </tr>
-    
+        <tbody id="infoData" >
+            
+        </tbody>
     </table>
+
+    <div class="monthlyCalculator">
+        <div class="monthlyText">0</div>
+    </div>
       
     
 </body>
