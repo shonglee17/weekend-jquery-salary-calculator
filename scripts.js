@@ -67,6 +67,8 @@ function updateMonthlyCost(){
     if( monthlySum >= 20000){
         $('.monthlyText').css('background-color', 'red')
         }
+
+
     
 
 
